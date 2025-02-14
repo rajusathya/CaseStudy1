@@ -42,7 +42,8 @@ This project provides a solution to monitor disk utilization across multiple AWS
 
 ## Set the trust relationship to allow the Ansible control machine to assume the role:
 
-... json
+```json
+
 {
     "Version": "2012-10-17",
     "Statement": [
